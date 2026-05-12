@@ -1,0 +1,104 @@
+[
+    {
+        "service": "EC2",
+        "resource": {
+            "GroupId": "sg-004db2028f3240a3b",
+            "GroupName": "launch-wizard-4",
+            "VpcId": "vpc-093572cbe5e55ea27",
+            "Port": 22,
+            "CIDR": "0.0.0.0/0"
+        },
+        "issue": "Port 22 open to internet",
+        "severity": "HIGH",
+        "frameworks": {
+            "CIS": "4.1",
+            "NIST": "SC-7",
+            "ISO27001": "A.13"
+        }
+    },
+    {
+        "service": "EC2",
+        "resource": {
+            "GroupId": "sg-002486af93012a8e8",
+            "GroupName": "launch-wizard-1",
+            "VpcId": "vpc-093572cbe5e55ea27",
+            "Port": 22,
+            "CIDR": "0.0.0.0/0"
+        },
+        "issue": "Port 22 open to internet",
+        "severity": "HIGH",
+        "frameworks": {
+            "CIS": "4.1",
+            "NIST": "SC-7",
+            "ISO27001": "A.13"
+        }
+    },
+    {
+        "service": "EC2",
+        "resource": {
+            "GroupId": "sg-04086b881f51fb5a4",
+            "GroupName": "launch-wizard-2",
+            "VpcId": "vpc-093572cbe5e55ea27",
+            "Port": 22,
+            "CIDR": "0.0.0.0/0"
+        },
+        "issue": "Port 22 open to internet",
+        "severity": "HIGH",
+        "frameworks": {
+            "CIS": "4.1",
+            "NIST": "SC-7",
+            "ISO27001": "A.13"
+        }
+    },
+    {
+        "service": "EC2",
+        "resource": {
+            "GroupId": "sg-0ac76d4be01dccc51",
+            "GroupName": "launch-wizard-5",
+            "VpcId": "vpc-093572cbe5e55ea27",
+            "Port": 22,
+            "CIDR": "0.0.0.0/0"
+        },
+        "issue": "Port 22 open to internet",
+        "severity": "HIGH",
+        "frameworks": {
+            "CIS": "4.1",
+            "NIST": "SC-7",
+            "ISO27001": "A.13"
+        }
+    },
+    {
+        "service": "EC2",
+        "resource": {
+            "GroupId": "sg-0c8c835788fc9e3b8",
+            "GroupName": "launch-wizard-6",
+            "VpcId": "vpc-093572cbe5e55ea27",
+            "Port": 22,
+            "CIDR": "0.0.0.0/0"
+        },
+        "issue": "Port 22 open to internet",
+        "severity": "HIGH",
+        "frameworks": {
+            "CIS": "4.1",
+            "NIST": "SC-7",
+            "ISO27001": "A.13"
+        }
+    },
+    {
+        "service": "EC2",
+        "resource": {
+            "GroupId": "sg-099ba4b9fe8b989e4",
+            "GroupName": "launch-wizard-3",
+            "VpcId": "vpc-093572cbe5e55ea27",
+            "Port": 22,
+            "CIDR": "0.0.0.0/0"
+        },
+        "issue": "Port 22 open to internet",
+        "severity": "HIGH",
+        "frameworks": {
+            "CIS": "4.1",
+            "NIST": "SC-7",
+            "ISO27001": "A.13"
+        }
+    }
+]

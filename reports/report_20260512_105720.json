@@ -1,0 +1,79 @@
+[
+    {
+        "service": "EC2",
+        "resource": "sg-004db2028f3240a3b",
+        "issue": "Port 22 open to internet",
+        "severity": "HIGH",
+        "frameworks": {
+            "CIS": "4.1",
+            "NIST": "SC-7",
+            "ISO27001": "A.13"
+        }
+    },
+    {
+        "service": "EC2",
+        "resource": "sg-002486af93012a8e8",
+        "issue": "Port 22 open to internet",
+        "severity": "HIGH",
+        "frameworks": {
+            "CIS": "4.1",
+            "NIST": "SC-7",
+            "ISO27001": "A.13"
+        }
+    },
+    {
+        "service": "EC2",
+        "resource": "sg-04086b881f51fb5a4",
+        "issue": "Port 22 open to internet",
+        "severity": "HIGH",
+        "frameworks": {
+            "CIS": "4.1",
+            "NIST": "SC-7",
+            "ISO27001": "A.13"
+        }
+    },
+    {
+        "service": "EC2",
+        "resource": "sg-0ac76d4be01dccc51",
+        "issue": "Port 22 open to internet",
+        "severity": "HIGH",
+        "frameworks": {
+            "CIS": "4.1",
+            "NIST": "SC-7",
+            "ISO27001": "A.13"
+        }
+    },
+    {
+        "service": "EC2",
+        "resource": "sg-0c8c835788fc9e3b8",
+        "issue": "Port 22 open to internet",
+        "severity": "HIGH",
+        "frameworks": {
+            "CIS": "4.1",
+            "NIST": "SC-7",
+            "ISO27001": "A.13"
+        }
+    },
+    {
+        "service": "EC2",
+        "resource": "sg-099ba4b9fe8b989e4",
+        "issue": "Port 22 open to internet",
+        "severity": "HIGH",
+        "frameworks": {
+            "CIS": "4.1",
+            "NIST": "SC-7",
+            "ISO27001": "A.13"
+        }
+    },
+    {
+        "service": "IAM",
+        "resource": "S3_GA_Deployer",
+        "issue": "Overly permissive policy",
+        "severity": "HIGH",
+        "frameworks": {
+            "CIS": "1.22",
+            "NIST": "AC-6",
+            "ISO27001": "A.9.1"
+        }
+    }
+]
